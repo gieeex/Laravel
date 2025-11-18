@@ -74,10 +74,10 @@
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-	   			<h1>I'm Juan Dela Cruz.</h1>
+	   			<h1>I'm Gerald Salunga</h1>
 
 	   			<p class="intro-position">
-	   				<span>Front-end Developer</span>
+	   				<span>Graphic Designer</span>
 	   				<span>UI/UX Designer</span> 
 	   			</p>
 
@@ -129,11 +129,11 @@
    			<ul class="info-list">
    				<li>
    					<strong>Fullname:</strong>
-   					<span>Juan Dela Cruz</span>
+   					<span>Gerald Salunga</span>
    				</li>
    				<li>
    					<strong>Birth Date:</strong>
-   					<span>September 28, 1987</span>
+   					<span>October 16, 2004</span>
    				</li>
    				<li>
    					<strong>Job:</strong>

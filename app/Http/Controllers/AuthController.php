@@ -16,19 +16,22 @@ class AuthController extends Controller
         return view('authentication.login');
     }
 
-    function performregister(Request $request){
-        $request->validate([
-            'name'      => 'required|string|max:255',
-            'email'     => 'required|email|unique;users',
-            'password'  => 'required|min:6|confirmed'
-        ]);
+function performregister(Request $request){
+    $request->validate([
+        'name'     => 'required|string|max:255',
+        'email'    => 'required|email|unique:users,email',
+        'password' => 'required|min:6|confirmed'
+    ]);
 
-        User::create([
-            'name' => $request->full_est->email,
-            'password'  => Hash::make($request->password)
-        ]);
-        return redirect()->route('login.form')->with('success', 'Registeration success');
-    }
+    User::create([
+        'name'     => $request->name,
+        'email'    => $request->email,
+        'password' => Hash::make($request->password)
+    ]);
+
+    return redirect()->route('login.form')->with('success', 'Registration successful');
+}
+
     function performlogin(Request $request){
 
     }

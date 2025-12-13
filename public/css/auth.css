@@ -1,0 +1,111 @@
+
+
+@import 'tailwindcss';
+
+.auth-wrapper {
+    min-height: 100vh;
+    display: flex;
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+.auth-left {
+    flex: 1;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.auth-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-right img {
+    width: 70%;
+    max-width: 500px;
+    border-radius: 6px;
+}
+
+.intro {
+    font-size: 14px;
+    color: #b5b5b5;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.title span {
+    color: #d9ff3f;
+}
+
+.description {
+    max-width: 420px;
+    color: #b5b5b5;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.auth-form {
+    max-width: 420px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 6px;
+    color: #b5b5b5;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px;
+    background: #000000;
+    border: 1px solid #2a2a2a;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #d9ff3f;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    padding: 14px 28px;
+    background: #d9ff3f;
+    color: #000;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+.auth-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #b5b5b5;
+}
+
+.auth-link a {
+    color: #d9ff3f;
+    text-decoration: none;
+}
